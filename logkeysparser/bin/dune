@@ -1,0 +1,4 @@
+(executable
+ (public_name logkeysparser)
+ (name main)
+ (libraries logkeysparser eio luv cmdliner))

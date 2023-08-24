@@ -1,0 +1,25 @@
+(lang dune 3.7)
+
+(name logkeysparser)
+
+(generate_opam_files true)
+
+(source
+ (github glottologist/logkeys-parser))
+
+(authors "Glottologist")
+
+(maintainers "Glottologist")
+
+(license MIT)
+
+(documentation https://glottologist.github.io/logkeys-parser)
+
+(package
+ (name logkeysparser)
+ (synopsis "LogKeys output parser")
+ (description "A command-line application to display keystroke occurences from logkeys output file")
+ (depends ocaml dune cmdliner)
+ (tags
+  (topics logkeys)))
+
